@@ -1,0 +1,687 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .r {
+        display: block;
+    }
+
+    .ul {
+        display: block;
+        margin: 0;
+    }
+
+    .a1 {
+        line-height: 30px;
+    }
+
+    #img4 {
+        width: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    #img5 {
+        width: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+
+    .box5 {
+        color: yellow;
+        background: yellowgreen;
+        line-height: 30px;
+        padding: 30px;
+        margin: 50px;
+    }
+
+    .Rammilan1 {
+        display: block;
+        width: auto;
+
+    }
+
+    .say {
+        display: block;
+        margin: 10px 10px;
+        width: 7 0%;
+        border: 1px solid rgba(0, 0, 0, 0.479)
+    }
+
+    .image-say {
+        width: 100%;
+        border: 1px solid rgba(228, 29, 29, 0.479);
+        display: block;
+        overflow: hidden;
+    }
+
+    .box0 {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .boxm {
+        width: 30%;
+        border: 1px solid rgba(228, 29, 29, 0.479);
+        display: block;
+        overflow: hidden;
+    }
+
+    .footer {
+        margin-top: 200px;
+    }
+
+    .footerrbuttum {
+        height: 50px;
+        padding-top: 52px;
+
+    }
+}
+
+.container {
+    height: auto;
+    width: 100%;
+    padding: 0 20px 20px 20px;
+    border: 2px solid rgb(243, 243, 14);
+}
+
+.header {
+    background: yellow;
+    padding: 10px;
+    /* display: inline-flex; */
+}
+
+.r {
+    float: left;
+}
+
+.r img {
+
+    height: 1rem;
+    width: 3vw;
+    border-radius: 50%;
+}
+
+.right {
+
+    float: right;
+    display: flex;
+}
+
+.right img {
+
+    height: 2rem;
+    width: 4vw;
+    border-radius: 50%;
+}
+
+.p3 {
+    margin: 5px 20px 0 10px;
+    font-size: 20px;
+}
+
+.navbar {
+    display: flex;
+    padding: 15px 20px 0px 0;
+    position: sticky;
+    top: 0;
+    background: rgb(251, 252, 249);
+    background-attachment: fixed;
+}
+
+.navbar #img6 {
+    float: left;
+    height: 50px;
+    width: 150px;
+}
+
+.ul {
+    float: right;
+    font-size: 20px;
+
+}
+
+.a1 {
+    padding: 0px 20px 10px 8px;
+    font-size: 35px;
+    text-decoration: none;
+    color: pink;
+}
+.a1:hover {
+    padding: 2px 10px;
+    background: blue;
+    border-radius: 10px;
+    color: white;
+}
+
+.content1 {
+    background: rgb(40, 5, 236);
+    padding: 1rem 0rem;
+}
+
+.content1 h1 {
+
+    font-style: italic;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+}
+
+.button-a {
+ 
+    margin: 1rem;
+    padding-left: 15rem;
+
+}
+
+.button-a button {
+    font-size: 25px;
+    background: rgb(218, 149, 22);
+    color: white;
+    padding: 1%;
+    border: 2px solid greenyellow;
+    border-radius: 12px;
+
+}
+
+.input1 {
+    padding: 0px 0 0 12rem;
+}
+
+.input1 button {
+    font-size: 40px;
+    background: orange;
+    padding: 1.5rem;
+    width: 6rem;
+    color: rgb(247, 248, 248);
+    font-size: 0.9em;
+    border-radius: 10px;
+
+}
+
+button:hover {
+    background: white;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: pink;
+}
+
+.input1 i {
+    font-size: 10px;
+}
+
+input {
+    font-size: 25px;
+    width: 30vw;
+    padding: 1rem 0rem;
+    display: inline;
+    background: white;
+    color: black;
+}
+
+input[placeholder] {
+    font-size: 24px
+}
+
+.content2 {
+    margin: 50px 50px;
+}
+
+.content2 h1 {
+    margin-top: 250px;
+    padding: 20px;
+
+}
+
+
+.row {
+    padding: 10px 10px;
+}
+
+.box {
+    padding: 10px 2px;
+    height: 280px; 
+    width: 15%;
+    justify-content: center;
+    margin: 30px 10px 0 0px;
+    border: 1px solid black;
+    float: left;
+    border-radius: 5px;
+}
+
+
+.box #img1 {
+    /* padding:0 15px;  */
+    /* width: 100px;
+    height: 100px; */
+margin-left: 50px;
+padding: 0%;
+align-items: center;
+justify-content:  center;
+text-align: center;
+}
+
+
+.box p {
+     margin-top: 25px; 
+    text-align: center;
+    font-size: 25px;
+}
+
+/* .Content3 */
+
+.contentp {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.contentp {
+    width: 100%;
+    margin: 10px 5px;
+}
+.contentp h1{
+    font-size: 60px;
+    padding: 15px;
+}
+.ram {
+    width: 30%;
+    height: auto;
+    background: whitesmoke;
+    float: left;
+    margin: 10px 10px;
+}
+
+h1 {
+    padding-top: 3px;
+    margin: 2px 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+#img4 {
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.ram .p1 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 10px 0;
+    font-style: italic;
+    font-family: Mongolian;
+}
+
+.slider button:hover {
+    background: white;
+    color: black;
+}
+
+.slider button {
+    width: 100%;
+    font-size: 10px;
+    padding: 5px;
+    background: blue;
+
+}
+
+.slider button, a {
+    color: white;
+    font-size: 25px;
+    padding: 12px;
+
+}
+
+.slider button, a:hover {
+    color: black;
+}
+
+.content4 {
+
+    padding: 5px 0 10px 10px;
+}
+
+.content4 h2 {
+    font-size: 60px;
+    text-align: center;
+    word-spacing: 2px;
+    padding-bottom: 8px;
+    letter-spacing: 1px;
+
+}
+
+ .content4 h4 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 17px;
+}
+
+.column {
+    /* background: red; */
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.column button {
+    background: blue;
+    font-size: 30px;
+    color: white;
+    padding: 15px;
+    margin: 0 10px 0 10px;
+    border-radius: 20px;
+}
+
+.course-box1 {
+    min-height: 1vh;
+    background: white;
+    padding: 20px;
+}
+
+.boxram {
+    margin: 10px 5px;
+    width: 31%;
+    float: left;
+    background: white;
+    border: 2px solid green;
+}
+
+.box0 {
+    max-width: 100%;
+    padding: 15px 20px 15px 20px;
+    justify-content: space-between;
+    border: 1px solid aqua;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.boxram p {
+    font-size: 25px;
+}
+
+.pb {
+    float: right;
+    font-size: 25px;
+    overflow: hidden;
+}
+
+.button5 {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.button5 {
+    min-width: 100%;
+    text-align: center;
+}
+
+.button5 button {
+    font-size: 30px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background: blue;
+    color: white;
+    text-align: center;
+}
+
+.content5 {
+    margin: 20px;
+    width: 100%;
+    background: rgb(238, 234, 234);
+}
+
+.content5 p {
+    margin: 10px 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.boxramm {
+    max-width: 150%;
+    padding: 15px 20px 15px 20px;
+    margin: 10px 20px;
+    justify-content: space-between;
+    border: 1px solid aqua;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.ram0 {
+    width: 33%;
+    height: auto;
+    float: left;
+    margin: 10px 20px;
+}
+
+#img5 {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 50%;
+    display: block;
+
+}
+
+.p1 {
+
+    font-size: 20px;
+    font-family: system-ui, 'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Rammilan1 {
+    width: 100%;
+     display: flex; 
+    float: left;
+}
+
+.Rammilan1::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.say {
+    float: left;
+    margin: 10px 10px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.479);
+}
+
+.say p {
+    font-family: serif;
+    font-size: 25px;
+    text-align: justify;
+    margin: 10px 15px;
+    font-style: italic;
+    line-height: 30px;
+}
+
+.content6 p {
+    margin: 50px 50px;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.boxm {
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+
+}
+
+/* 
+    .footer{ background: aquamarine;} */
+.footer1 {
+    height: auto;
+    background: blue;
+
+}
+
+.footerram {
+    display: flex;
+    height: auto;
+    padding: 20px;
+    border-bottom: 1px solid white;
+}
+
+.footer2 {
+/* display: flex; */
+    /* margin: 0 30px 0 20px; */
+}
+
+.footer2 img {
+ 
+    height: 15px;
+    width: 15px;
+}
+
+.footer1 p {
+    font-size: 10px;
+    margin-left: 50px;
+    color: white;
+    margin-right: 30px;
+}
+
+i {
+    font-size: 20px;
+}
+
+h5 {
+    color: white;
+    font-size: 10px;
+}
+
+.footer-link {
+    height: auto;
+    margin: 20px;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+
+
+.footer-link a {
+    margin-top: 20px;
+    padding: 20px;
+    color: white;
+
+    font-size: 18px;
+}
+
+
+.footerrbuttum {
+    margin-top: 200px;
+
+}
+
+.footer-buttum {
+    margin-top: 410px;
+    background: green;
+    /* position: sticky;
+    bottom: 0; */
+}
+
+.footerrbuttum input {
+    width: 210px;
+    padding: 10px 20px;
+    display: inline;
+    margin: 10px 10px;
+    background: white;
+    color: black;
+}
+
+.footerrbuttum button {
+    padding: 12px;
+    background: orangered;
+    color: black;
+}
+
+.footerrbuttum input[ placeholder] {
+    font-size: 15px;
+    color: rgb(241, 19, 19);
+}
